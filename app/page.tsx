@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-stone-700 to-zinc-800 flex flex-col items-center justify-center px-6 text-center">
       
       {/* Title */}
-      <h1 className="text-4xl md:text-5xl font-bold p-4 mb-12 text-gray-100">
+      <h1 className="text-4xl md:text-5xl font-bold p-2 mt-4 mb-8 text-gray-100">
         Welcome to <span className="bg-gradient-to-r from-yellow-400 via-orange-400 to-red-800 bg-clip-text text-transparent">Cienfuegos</span>
       </h1>
 
@@ -15,7 +15,7 @@ export default function Home() {
         {/* Option 1 — Human Potential */}
         <a
           href="https://humanpotential.netlify.app"
-          className="group p-8 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+          className="group p-8 bg-gradient-to-b from-yellow-400 to-orange-400 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
         >
           <img className="my-8" src={"../images/forest city in contrast with normal city.jpeg"} />
           <h2 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-white transition">
@@ -29,7 +29,7 @@ export default function Home() {
         {/* Option 2 — Dancing School */}
         <a
           href="https://dance.cien-fuegos.at"
-          className="group p-8 bg-gradient-to-l from-yellow-400 to-orange-400 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
+          className="group p-8 bg-gradient-to-t from-yellow-400 to-orange-400 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
         >
           <img className="my-7" src={"../images/Dance Group.jpg"} />
           <h2 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-white transition">
@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* Footer */}
       <p className="mt-16 text-gray-400 text-sm">
-        © {new Date().getFullYear()} Cien-Fuegos
+        © {new Date().getFullYear()} Cienfuegos
       </p>
     </div>
   );
