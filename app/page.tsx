@@ -28,7 +28,7 @@ export default function Home() {
 
         {/* Option 2 — Dancing School */}
         <a
-          href="https://dance.cien-fuegos.at"
+          //href="https://dance.cien-fuegos.at"
           className="group p-8 bg-gradient-to-t from-yellow-400 to-orange-400 rounded-2xl shadow-lg hover:shadow-2xl transition-all"
         >
           <img className="my-7" src={"../images/Dance Group.jpg"} />
