@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Welcome to Cienfuegos",
   description: "Utopian Visions & Performance",
+  openGraph: {
+    images: '../images/profilfoto_opengraph.jpg',
+  }
 };
 
 export default function RootLayout({
